@@ -145,7 +145,6 @@
     "run-parallel": "^1.2.0",
     "rxjs": "^7.8.1",
     "safer-buffer": "^2.1.2",
-    "sass-embedded-win32-x64": "^1.83.4",
     "sax": "^1.4.1",
     "section-matter": "^1.0.0",
     "shebang-command": "^2.0.0",
