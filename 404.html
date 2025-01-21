@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>VuePress</title><meta name="description" content="My first VuePress Site">
+    <link rel="preload" href="/xt/assets/style-tstkky8y.css" as="style"><link rel="stylesheet" href="/xt/assets/style-tstkky8y.css">
+    <link rel="modulepreload" href="/xt/assets/app-CbwDGRto.js"><link rel="modulepreload" href="/xt/assets/404.html-CyOoT3Ti.js">
+    <link rel="prefetch" href="/xt/assets/index.html-mY6uAqqd.js" as="script"><link rel="prefetch" href="/xt/assets/index.html-D4bC5T9S.js" as="script"><link rel="prefetch" href="/xt/assets/aa.html-BXXqbr_q.js" as="script"><link rel="prefetch" href="/xt/assets/firstPost.html-C8YPrhxK.js" as="script"><link rel="prefetch" href="/xt/assets/setupDevtools-7MC2TMWH-jkGNpesw.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-8636ca9b><main class="page" data-v-8636ca9b><div vp-content data-v-8636ca9b><h1 data-v-8636ca9b>404</h1><blockquote data-v-8636ca9b>There&#39;s nothing here.</blockquote><a class="route-link" href="/xt/" data-v-8636ca9b>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/xt/assets/app-CbwDGRto.js" defer></script>
+  </body>
+</html>
